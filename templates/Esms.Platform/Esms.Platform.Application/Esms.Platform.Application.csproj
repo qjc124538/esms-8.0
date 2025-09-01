@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\framework\Esms.Ddd.Application\Esms.Ddd.Application.csproj" />
+    <ProjectReference Include="..\Esms.Platform.Application.Contracts\Esms.Platform.Application.Contracts.csproj" />
+    <ProjectReference Include="..\Esms.Platform.Domain\Esms.Platform.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,15 @@
+C:\Work\demo\esms-8.0\modules\Esms.Account\Esms.Account.Domain.Shared\bin\Debug\net8.0\Esms.Account.Domain.Shared.deps.json
+C:\Work\demo\esms-8.0\modules\Esms.Account\Esms.Account.Domain.Shared\bin\Debug\net8.0\Esms.Account.Domain.Shared.dll
+C:\Work\demo\esms-8.0\modules\Esms.Account\Esms.Account.Domain.Shared\bin\Debug\net8.0\Esms.Account.Domain.Shared.pdb
+C:\Work\demo\esms-8.0\modules\Esms.Account\Esms.Account.Domain.Shared\obj\Debug\net8.0\Esms.Account.Domain.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Work\demo\esms-8.0\modules\Esms.Account\Esms.Account.Domain.Shared\obj\Debug\net8.0\Esms.Account.Domain.Shared.AssemblyInfoInputs.cache
+C:\Work\demo\esms-8.0\modules\Esms.Account\Esms.Account.Domain.Shared\obj\Debug\net8.0\Esms.Account.Domain.Shared.AssemblyInfo.cs
+C:\Work\demo\esms-8.0\modules\Esms.Account\Esms.Account.Domain.Shared\obj\Debug\net8.0\Esms.Account.Domain.Shared.csproj.CoreCompileInputs.cache
+C:\Work\demo\esms-8.0\modules\Esms.Account\Esms.Account.Domain.Shared\obj\Debug\net8.0\Esms.Account.Domain.Shared.dll
+C:\Work\demo\esms-8.0\modules\Esms.Account\Esms.Account.Domain.Shared\obj\Debug\net8.0\refint\Esms.Account.Domain.Shared.dll
+C:\Work\demo\esms-8.0\modules\Esms.Account\Esms.Account.Domain.Shared\obj\Debug\net8.0\Esms.Account.Domain.Shared.pdb
+C:\Work\demo\esms-8.0\modules\Esms.Account\Esms.Account.Domain.Shared\obj\Debug\net8.0\ref\Esms.Account.Domain.Shared.dll
+C:\Work\demo\esms-8.0\modules\Esms.Account\Esms.Account.Domain.Shared\bin\Debug\net8.0\Esms.Ddd.Domain.Shared.dll
+C:\Work\demo\esms-8.0\modules\Esms.Account\Esms.Account.Domain.Shared\bin\Debug\net8.0\Esms.Ddd.Domain.Shared.pdb
+C:\Work\demo\esms-8.0\modules\Esms.Account\Esms.Account.Domain.Shared\obj\Debug\net8.0\Esms.Account.Domain.Shared.csproj.AssemblyReference.cache
+C:\Work\demo\esms-8.0\modules\Esms.Account\Esms.Account.Domain.Shared\obj\Debug\net8.0\Esms.Acc.BB524D7B.Up2Date

@@ -1,0 +1,12 @@
+C:\Work\demo\esms-8.0\framework\Esms.Ddd.Domain.Shared\bin\Debug\net8.0\Esms.Ddd.Domain.Shared.deps.json
+C:\Work\demo\esms-8.0\framework\Esms.Ddd.Domain.Shared\bin\Debug\net8.0\Esms.Ddd.Domain.Shared.dll
+C:\Work\demo\esms-8.0\framework\Esms.Ddd.Domain.Shared\bin\Debug\net8.0\Esms.Ddd.Domain.Shared.pdb
+C:\Work\demo\esms-8.0\framework\Esms.Ddd.Domain.Shared\obj\Debug\net8.0\Esms.Ddd.Domain.Shared.csproj.AssemblyReference.cache
+C:\Work\demo\esms-8.0\framework\Esms.Ddd.Domain.Shared\obj\Debug\net8.0\Esms.Ddd.Domain.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Work\demo\esms-8.0\framework\Esms.Ddd.Domain.Shared\obj\Debug\net8.0\Esms.Ddd.Domain.Shared.AssemblyInfoInputs.cache
+C:\Work\demo\esms-8.0\framework\Esms.Ddd.Domain.Shared\obj\Debug\net8.0\Esms.Ddd.Domain.Shared.AssemblyInfo.cs
+C:\Work\demo\esms-8.0\framework\Esms.Ddd.Domain.Shared\obj\Debug\net8.0\Esms.Ddd.Domain.Shared.csproj.CoreCompileInputs.cache
+C:\Work\demo\esms-8.0\framework\Esms.Ddd.Domain.Shared\obj\Debug\net8.0\Esms.Ddd.Domain.Shared.dll
+C:\Work\demo\esms-8.0\framework\Esms.Ddd.Domain.Shared\obj\Debug\net8.0\refint\Esms.Ddd.Domain.Shared.dll
+C:\Work\demo\esms-8.0\framework\Esms.Ddd.Domain.Shared\obj\Debug\net8.0\Esms.Ddd.Domain.Shared.pdb
+C:\Work\demo\esms-8.0\framework\Esms.Ddd.Domain.Shared\obj\Debug\net8.0\ref\Esms.Ddd.Domain.Shared.dll

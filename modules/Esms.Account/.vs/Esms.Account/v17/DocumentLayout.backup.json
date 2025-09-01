@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Work\\demo\\esms-8.0\\modules\\Esms.Account\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4165FF5B-355F-4A42-858C-57647E272E5D}|Esms.Account.WebApi\\Esms.Account.WebApi.csproj|c:\\work\\demo\\esms-8.0\\modules\\esms.account\\esms.account.webapi\\esmsaccountwebapiinternalmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4165FF5B-355F-4A42-858C-57647E272E5D}|Esms.Account.WebApi\\Esms.Account.WebApi.csproj|solutionrelative:esms.account.webapi\\esmsaccountwebapiinternalmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4165FF5B-355F-4A42-858C-57647E272E5D}|Esms.Account.WebApi\\Esms.Account.WebApi.csproj|c:\\work\\demo\\esms-8.0\\modules\\esms.account\\esms.account.webapi\\esmsaccountunitofworkmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4165FF5B-355F-4A42-858C-57647E272E5D}|Esms.Account.WebApi\\Esms.Account.WebApi.csproj|solutionrelative:esms.account.webapi\\esmsaccountunitofworkmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74FF7477-D4BC-428C-AE22-A16C97F73045}|Esms.Account.Application\\Esms.Account.Application.csproj|c:\\work\\demo\\esms-8.0\\modules\\esms.account\\esms.account.application\\esmsaccounttestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74FF7477-D4BC-428C-AE22-A16C97F73045}|Esms.Account.Application\\Esms.Account.Application.csproj|solutionrelative:esms.account.application\\esmsaccounttestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EsmsAccountWebApiInternalModule.cs",
+              "DocumentMoniker": "C:\\Work\\demo\\esms-8.0\\modules\\Esms.Account\\Esms.Account.WebApi\\EsmsAccountWebApiInternalModule.cs",
+              "RelativeDocumentMoniker": "Esms.Account.WebApi\\EsmsAccountWebApiInternalModule.cs",
+              "ToolTip": "C:\\Work\\demo\\esms-8.0\\modules\\Esms.Account\\Esms.Account.WebApi\\EsmsAccountWebApiInternalModule.cs",
+              "RelativeToolTip": "Esms.Account.WebApi\\EsmsAccountWebApiInternalModule.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAADwv1wAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T08:41:05.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EsmsAccountUnitOfWorkMiddleware.cs",
+              "DocumentMoniker": "C:\\Work\\demo\\esms-8.0\\modules\\Esms.Account\\Esms.Account.WebApi\\EsmsAccountUnitOfWorkMiddleware.cs",
+              "RelativeDocumentMoniker": "Esms.Account.WebApi\\EsmsAccountUnitOfWorkMiddleware.cs",
+              "ToolTip": "C:\\Work\\demo\\esms-8.0\\modules\\Esms.Account\\Esms.Account.WebApi\\EsmsAccountUnitOfWorkMiddleware.cs",
+              "RelativeToolTip": "Esms.Account.WebApi\\EsmsAccountUnitOfWorkMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T08:41:04.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EsmsAccountTestService.cs",
+              "DocumentMoniker": "C:\\Work\\demo\\esms-8.0\\modules\\Esms.Account\\Esms.Account.Application\\EsmsAccountTestService.cs",
+              "RelativeDocumentMoniker": "Esms.Account.Application\\EsmsAccountTestService.cs",
+              "ToolTip": "C:\\Work\\demo\\esms-8.0\\modules\\Esms.Account\\Esms.Account.Application\\EsmsAccountTestService.cs",
+              "RelativeToolTip": "Esms.Account.Application\\EsmsAccountTestService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T08:40:15.587Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

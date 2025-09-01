@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "CwK0NNZSm4o6QaFM5/Y5j7B9thGpFpamMWYkx7jY81E=",
+  "Source": "Esms.Ddd.WebApi",
+  "BasePath": "_content/Esms.Ddd.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

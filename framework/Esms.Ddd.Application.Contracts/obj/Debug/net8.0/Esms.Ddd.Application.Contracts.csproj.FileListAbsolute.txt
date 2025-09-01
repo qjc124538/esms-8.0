@@ -1,0 +1,15 @@
+C:\Work\demo\esms-8.0\framework\Esms.Ddd.Application.Contracts\bin\Debug\net8.0\Esms.Ddd.Application.Contracts.deps.json
+C:\Work\demo\esms-8.0\framework\Esms.Ddd.Application.Contracts\bin\Debug\net8.0\Esms.Ddd.Application.Contracts.dll
+C:\Work\demo\esms-8.0\framework\Esms.Ddd.Application.Contracts\bin\Debug\net8.0\Esms.Ddd.Application.Contracts.pdb
+C:\Work\demo\esms-8.0\framework\Esms.Ddd.Application.Contracts\bin\Debug\net8.0\Esms.Ddd.Domain.Shared.dll
+C:\Work\demo\esms-8.0\framework\Esms.Ddd.Application.Contracts\bin\Debug\net8.0\Esms.Ddd.Domain.Shared.pdb
+C:\Work\demo\esms-8.0\framework\Esms.Ddd.Application.Contracts\obj\Debug\net8.0\Esms.Ddd.Application.Contracts.csproj.AssemblyReference.cache
+C:\Work\demo\esms-8.0\framework\Esms.Ddd.Application.Contracts\obj\Debug\net8.0\Esms.Ddd.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Work\demo\esms-8.0\framework\Esms.Ddd.Application.Contracts\obj\Debug\net8.0\Esms.Ddd.Application.Contracts.AssemblyInfoInputs.cache
+C:\Work\demo\esms-8.0\framework\Esms.Ddd.Application.Contracts\obj\Debug\net8.0\Esms.Ddd.Application.Contracts.AssemblyInfo.cs
+C:\Work\demo\esms-8.0\framework\Esms.Ddd.Application.Contracts\obj\Debug\net8.0\Esms.Ddd.Application.Contracts.csproj.CoreCompileInputs.cache
+C:\Work\demo\esms-8.0\framework\Esms.Ddd.Application.Contracts\obj\Debug\net8.0\Esms.Ddd.7ADB93A0.Up2Date
+C:\Work\demo\esms-8.0\framework\Esms.Ddd.Application.Contracts\obj\Debug\net8.0\Esms.Ddd.Application.Contracts.dll
+C:\Work\demo\esms-8.0\framework\Esms.Ddd.Application.Contracts\obj\Debug\net8.0\refint\Esms.Ddd.Application.Contracts.dll
+C:\Work\demo\esms-8.0\framework\Esms.Ddd.Application.Contracts\obj\Debug\net8.0\Esms.Ddd.Application.Contracts.pdb
+C:\Work\demo\esms-8.0\framework\Esms.Ddd.Application.Contracts\obj\Debug\net8.0\ref\Esms.Ddd.Application.Contracts.dll
