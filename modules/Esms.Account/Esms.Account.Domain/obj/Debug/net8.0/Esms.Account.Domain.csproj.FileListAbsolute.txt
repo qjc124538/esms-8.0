@@ -17,3 +17,4 @@ C:\Work\demo\esms-8.0\modules\Esms.Account\Esms.Account.Domain\bin\Debug\net8.0\
 C:\Work\demo\esms-8.0\modules\Esms.Account\Esms.Account.Domain\bin\Debug\net8.0\Esms.Ddd.Domain.Shared.pdb
 C:\Work\demo\esms-8.0\modules\Esms.Account\Esms.Account.Domain\obj\Debug\net8.0\Esms.Account.Domain.csproj.AssemblyReference.cache
 C:\Work\demo\esms-8.0\modules\Esms.Account\Esms.Account.Domain\obj\Debug\net8.0\Esms.Acc.A43827E9.Up2Date
+C:\Work\Demo\esms-8.0\modules\Esms.Account\Esms.Account.Domain\obj\Debug\net8.0\Esms.Account.Domain.sourcelink.json

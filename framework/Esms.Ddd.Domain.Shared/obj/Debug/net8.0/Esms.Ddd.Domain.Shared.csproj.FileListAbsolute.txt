@@ -10,3 +10,4 @@ C:\Work\demo\esms-8.0\framework\Esms.Ddd.Domain.Shared\obj\Debug\net8.0\Esms.Ddd
 C:\Work\demo\esms-8.0\framework\Esms.Ddd.Domain.Shared\obj\Debug\net8.0\refint\Esms.Ddd.Domain.Shared.dll
 C:\Work\demo\esms-8.0\framework\Esms.Ddd.Domain.Shared\obj\Debug\net8.0\Esms.Ddd.Domain.Shared.pdb
 C:\Work\demo\esms-8.0\framework\Esms.Ddd.Domain.Shared\obj\Debug\net8.0\ref\Esms.Ddd.Domain.Shared.dll
+C:\Work\Demo\esms-8.0\framework\Esms.Ddd.Domain.Shared\obj\Debug\net8.0\Esms.Ddd.Domain.Shared.sourcelink.json

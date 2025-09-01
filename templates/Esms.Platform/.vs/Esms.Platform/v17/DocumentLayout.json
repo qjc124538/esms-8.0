@@ -1,12 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Work\\demo\\esms-8.0\\templates\\Esms.Platform\\",
+  "WorkspaceRootPath": "C:\\Work\\Demo\\esms-8.0\\templates\\Esms.Platform\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F2771481-6891-9F65-C3CF-6A6276E17415}|..\\..\\modules\\Esms.Account\\Esms.Account.WebApi\\Esms.Account.WebApi.csproj|c:\\work\\demo\\esms-8.0\\modules\\esms.account\\esms.account.webapi\\esmsaccountwebapiinternalmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2771481-6891-9F65-C3CF-6A6276E17415}|..\\..\\modules\\Esms.Account\\Esms.Account.WebApi\\Esms.Account.WebApi.csproj|c:\\work\\demo\\esms-8.0\\modules\\esms.account\\esms.account.webapi\\esmsaccountwebapimodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{27DBA1A8-F8AA-81DC-CCE1-374F5E3C32F2}|..\\..\\framework\\Esms.Ddd.Domain.Shared\\Esms.Ddd.Domain.Shared.csproj|c:\\work\\demo\\esms-8.0\\framework\\esms.ddd.domain.shared\\attributes\\esmsdddsqlsugarunitofworkattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,28 +18,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "EsmsAccountWebApiInternalModule.cs",
-              "DocumentMoniker": "C:\\Work\\demo\\esms-8.0\\modules\\Esms.Account\\Esms.Account.WebApi\\EsmsAccountWebApiInternalModule.cs",
-              "RelativeDocumentMoniker": "..\\..\\modules\\Esms.Account\\Esms.Account.WebApi\\EsmsAccountWebApiInternalModule.cs",
-              "ToolTip": "C:\\Work\\demo\\esms-8.0\\modules\\Esms.Account\\Esms.Account.WebApi\\EsmsAccountWebApiInternalModule.cs",
-              "RelativeToolTip": "..\\..\\modules\\Esms.Account\\Esms.Account.WebApi\\EsmsAccountWebApiInternalModule.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAAF4AAABeAAAAAAAAAA==",
+              "Title": "EsmsDddSqlSugarUnitOfWorkAttribute.cs",
+              "DocumentMoniker": "C:\\Work\\Demo\\esms-8.0\\framework\\Esms.Ddd.Domain.Shared\\Attributes\\EsmsDddSqlSugarUnitOfWorkAttribute.cs",
+              "RelativeDocumentMoniker": "..\\..\\framework\\Esms.Ddd.Domain.Shared\\Attributes\\EsmsDddSqlSugarUnitOfWorkAttribute.cs",
+              "ToolTip": "C:\\Work\\Demo\\esms-8.0\\framework\\Esms.Ddd.Domain.Shared\\Attributes\\EsmsDddSqlSugarUnitOfWorkAttribute.cs",
+              "RelativeToolTip": "..\\..\\framework\\Esms.Ddd.Domain.Shared\\Attributes\\EsmsDddSqlSugarUnitOfWorkAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwgAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T09:10:52.782Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EsmsAccountWebApiModule.cs",
-              "DocumentMoniker": "C:\\Work\\demo\\esms-8.0\\modules\\Esms.Account\\Esms.Account.WebApi\\EsmsAccountWebApiModule.cs",
-              "RelativeDocumentMoniker": "..\\..\\modules\\Esms.Account\\Esms.Account.WebApi\\EsmsAccountWebApiModule.cs",
-              "ToolTip": "C:\\Work\\demo\\esms-8.0\\modules\\Esms.Account\\Esms.Account.WebApi\\EsmsAccountWebApiModule.cs",
-              "RelativeToolTip": "..\\..\\modules\\Esms.Account\\Esms.Account.WebApi\\EsmsAccountWebApiModule.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAABoAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T09:13:47.433Z",
+              "WhenOpened": "2025-09-01T15:48:44.116Z",
               "EditorCaption": ""
             }
           ]

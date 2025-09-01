@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\framework\Esms.Ddd.Application\Esms.Ddd.Application.csproj" />
+    <ProjectReference Include="..\..\..\modules\Esms.Account\Esms.Account.Application.Contracts\Esms.Account.Application.Contracts.csproj" />
     <ProjectReference Include="..\Esms.Platform.Application.Contracts\Esms.Platform.Application.Contracts.csproj" />
     <ProjectReference Include="..\Esms.Platform.Domain\Esms.Platform.Domain.csproj" />
   </ItemGroup>

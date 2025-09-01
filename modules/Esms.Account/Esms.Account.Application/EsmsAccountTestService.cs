@@ -1,4 +1,5 @@
-﻿using Esms.Account.Application.Contracts;
+﻿using Dm.util;
+using Esms.Account.Application.Contracts;
 using Esms.Account.Domain;
 using Esms.Ddd.Application;
 using Esms.Ddd.Domain;
@@ -13,31 +14,43 @@ namespace Esms.Account.Application
 {
     public class EsmsAccountTestService: EsmsApplicationService, IEsmsAccountTestService
     {
-        private readonly EsmsAccountSqlSugarClient esmsAccountDbContext;
+        private readonly EsmsAccountSqlSugarClient esmsAccountSqlSugarClient;
 
-        public EsmsAccountTestService(EsmsAccountSqlSugarClient _esmsAccountDbContext)
+        public EsmsAccountTestService(EsmsAccountSqlSugarClient _esmsAccountSqlSugarClient)
         {
-            esmsAccountDbContext = _esmsAccountDbContext;
+            esmsAccountSqlSugarClient = _esmsAccountSqlSugarClient;
         }
 
-        public async Task AddAbpTestList(int count)
+        public async Task<List<decimal>> AddAbpTestListAsync(int count)
         {
-            int dbCount = await esmsAccountDbContext.Queryable<AbpTest>().CountAsync();
+            int dbCount = await esmsAccountSqlSugarClient.Queryable<AbpTest>().CountAsync();
+            List<decimal> idList = new List<decimal>();
             for (int i = 0; i < count; i++)
             {
                 dbCount++;
-                await esmsAccountDbContext.Insertable(new AbpTest { Name = "R: " + dbCount }).ExecuteCommandAsync();
+                string name = "EsmsAccountTestService: " + dbCount;
+                await esmsAccountSqlSugarClient.Insertable(new AbpTest { Name = name }).ExecuteCommandAsync();
+                idList.Add(Convert.ToDecimal((await esmsAccountSqlSugarClient.Queryable<AbpTest>().FirstAsync(x => x.Name == name)).Id));
+            }
+            return idList;
+        }
+
+        public async Task DeleteAbpTestListAsync(List<decimal> idList)
+        {
+            foreach (decimal id in idList)
+            {
+                await esmsAccountSqlSugarClient.Deleteable<AbpTest>(x => x.Id == id).ExecuteCommandAsync();
             }
         }
 
-        public async Task<string> Excute()
+        public async Task<string> ExcuteAsync()
         {
             return await Task.FromResult("EsmsAccountTestService: 成功");
         }
 
-        public async Task<string> GetAbpTestList()
+        public async Task<string> GetAbpTestListAsync()
         {
-            var list = await esmsAccountDbContext.Queryable<AbpTest>().ToListAsync();
+            var list = await esmsAccountSqlSugarClient.Queryable<AbpTest>().ToListAsync();
             return JsonSerializer.Serialize(list);
         }
     }

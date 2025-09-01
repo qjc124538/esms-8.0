@@ -527,12 +527,6 @@ C:\Work\demo\esms-8.0\framework\Esms.Ddd.WebApi\obj\Debug\net8.0\scopedcss\bundl
 C:\Work\demo\esms-8.0\framework\Esms.Ddd.WebApi\obj\Debug\net8.0\staticwebassets.build.json
 C:\Work\demo\esms-8.0\framework\Esms.Ddd.WebApi\obj\Debug\net8.0\staticwebassets.development.json
 C:\Work\demo\esms-8.0\framework\Esms.Ddd.WebApi\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Work\demo\esms-8.0\framework\Esms.Ddd.WebApi\obj\Debug\net8.0\staticwebassets\msbuild.Esms.Ddd.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Work\demo\esms-8.0\framework\Esms.Ddd.WebApi\obj\Debug\net8.0\staticwebassets\msbuild.Esms.Ddd.WebApi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-C:\Work\demo\esms-8.0\framework\Esms.Ddd.WebApi\obj\Debug\net8.0\staticwebassets\msbuild.build.Esms.Ddd.WebApi.props
-C:\Work\demo\esms-8.0\framework\Esms.Ddd.WebApi\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Esms.Ddd.WebApi.props
-C:\Work\demo\esms-8.0\framework\Esms.Ddd.WebApi\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Esms.Ddd.WebApi.props
-C:\Work\demo\esms-8.0\framework\Esms.Ddd.WebApi\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Work\demo\esms-8.0\framework\Esms.Ddd.WebApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Work\demo\esms-8.0\framework\Esms.Ddd.WebApi\obj\Debug\net8.0\Esms.Ddd.C165D755.Up2Date
 C:\Work\demo\esms-8.0\framework\Esms.Ddd.WebApi\obj\Debug\net8.0\Esms.Ddd.WebApi.dll
@@ -544,3 +538,9 @@ C:\Work\demo\esms-8.0\framework\Esms.Ddd.WebApi\bin\Debug\net8.0\Microsoft.Exten
 C:\Work\demo\esms-8.0\framework\Esms.Ddd.WebApi\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
 C:\Work\demo\esms-8.0\framework\Esms.Ddd.WebApi\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
 C:\Work\demo\esms-8.0\framework\Esms.Ddd.WebApi\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+C:\Work\Demo\esms-8.0\framework\Esms.Ddd.WebApi\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Work\Demo\esms-8.0\framework\Esms.Ddd.WebApi\obj\Debug\net8.0\Esms.Ddd.WebApi.sourcelink.json
+C:\Work\Demo\esms-8.0\framework\Esms.Ddd.WebApi\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Work\Demo\esms-8.0\framework\Esms.Ddd.WebApi\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Work\Demo\esms-8.0\framework\Esms.Ddd.WebApi\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Work\Demo\esms-8.0\framework\Esms.Ddd.WebApi\obj\Debug\net8.0\staticwebassets.build.json.cache

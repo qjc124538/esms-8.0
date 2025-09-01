@@ -9,10 +9,12 @@ namespace Esms.Account.Application.Contracts
 {
     public interface IEsmsAccountTestService: IEsmsApplicationService
     {
-        Task<string> Excute();
+        Task<string> ExcuteAsync();
 
-        Task<string> GetAbpTestList();
+        Task<string> GetAbpTestListAsync();
 
-        Task AddAbpTestList(int count);
+        Task<List<decimal>> AddAbpTestListAsync(int count);
+
+        Task DeleteAbpTestListAsync(List<decimal> idList);
     }
 }

@@ -1,0 +1,16 @@
+C:\Work\Demo\esms-8.0\templates\Esms.Platform\Esms.Platform.Domain.Shared\bin\Debug\net8.0\Esms.Platform.Domain.Shared.deps.json
+C:\Work\Demo\esms-8.0\templates\Esms.Platform\Esms.Platform.Domain.Shared\bin\Debug\net8.0\Esms.Platform.Domain.Shared.dll
+C:\Work\Demo\esms-8.0\templates\Esms.Platform\Esms.Platform.Domain.Shared\bin\Debug\net8.0\Esms.Platform.Domain.Shared.pdb
+C:\Work\Demo\esms-8.0\templates\Esms.Platform\Esms.Platform.Domain.Shared\bin\Debug\net8.0\Esms.Ddd.Domain.Shared.dll
+C:\Work\Demo\esms-8.0\templates\Esms.Platform\Esms.Platform.Domain.Shared\bin\Debug\net8.0\Esms.Ddd.Domain.Shared.pdb
+C:\Work\Demo\esms-8.0\templates\Esms.Platform\Esms.Platform.Domain.Shared\obj\Debug\net8.0\Esms.Platform.Domain.Shared.csproj.AssemblyReference.cache
+C:\Work\Demo\esms-8.0\templates\Esms.Platform\Esms.Platform.Domain.Shared\obj\Debug\net8.0\Esms.Platform.Domain.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Work\Demo\esms-8.0\templates\Esms.Platform\Esms.Platform.Domain.Shared\obj\Debug\net8.0\Esms.Platform.Domain.Shared.AssemblyInfoInputs.cache
+C:\Work\Demo\esms-8.0\templates\Esms.Platform\Esms.Platform.Domain.Shared\obj\Debug\net8.0\Esms.Platform.Domain.Shared.AssemblyInfo.cs
+C:\Work\Demo\esms-8.0\templates\Esms.Platform\Esms.Platform.Domain.Shared\obj\Debug\net8.0\Esms.Platform.Domain.Shared.csproj.CoreCompileInputs.cache
+C:\Work\Demo\esms-8.0\templates\Esms.Platform\Esms.Platform.Domain.Shared\obj\Debug\net8.0\Esms.Platform.Domain.Shared.sourcelink.json
+C:\Work\Demo\esms-8.0\templates\Esms.Platform\Esms.Platform.Domain.Shared\obj\Debug\net8.0\Esms.Pla.94F3A037.Up2Date
+C:\Work\Demo\esms-8.0\templates\Esms.Platform\Esms.Platform.Domain.Shared\obj\Debug\net8.0\Esms.Platform.Domain.Shared.dll
+C:\Work\Demo\esms-8.0\templates\Esms.Platform\Esms.Platform.Domain.Shared\obj\Debug\net8.0\refint\Esms.Platform.Domain.Shared.dll
+C:\Work\Demo\esms-8.0\templates\Esms.Platform\Esms.Platform.Domain.Shared\obj\Debug\net8.0\Esms.Platform.Domain.Shared.pdb
+C:\Work\Demo\esms-8.0\templates\Esms.Platform\Esms.Platform.Domain.Shared\obj\Debug\net8.0\ref\Esms.Platform.Domain.Shared.dll

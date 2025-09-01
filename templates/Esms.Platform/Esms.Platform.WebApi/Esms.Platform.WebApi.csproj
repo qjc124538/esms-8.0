@@ -10,4 +10,10 @@
     <Folder Include="Controllers\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\framework\Esms.Ddd.WebApi\Esms.Ddd.WebApi.csproj" />
+    <ProjectReference Include="..\..\..\modules\Esms.Account\Esms.Account.WebApi\Esms.Account.WebApi.csproj" />
+    <ProjectReference Include="..\Esms.Platform.Application\Esms.Platform.Application.csproj" />
+  </ItemGroup>
+
 </Project>

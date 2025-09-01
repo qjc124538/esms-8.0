@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zwoBpyuosCo=",
+  "dgSpecHash": "v/Kad13XJp0=",
   "success": true,
-  "projectFilePath": "C:\\Work\\demo\\esms-8.0\\modules\\Esms.Account\\Esms.Account.Application\\Esms.Account.Application.csproj",
+  "projectFilePath": "C:\\Work\\Demo\\esms-8.0\\modules\\Esms.Account\\Esms.Account.Application\\Esms.Account.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Qjc\\.nuget\\packages\\asynckeyedlock\\6.3.4\\asynckeyedlock.6.3.4.nupkg.sha512",
     "C:\\Users\\Qjc\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",

@@ -1,15 +1,9 @@
+
+using Esms.Platform.WebApi;
+
 var builder = WebApplication.CreateBuilder(args);
-
-// Add services to the container.
-
-builder.Services.AddControllers();
-
+builder.Host.UseAutofac();
+await builder.AddApplicationAsync<EsmsPlatformWebApiInternalModule>();
 var app = builder.Build();
-
-// Configure the HTTP request pipeline.
-
-app.UseAuthorization();
-
-app.MapControllers();
-
-app.Run();
+await app.InitializeApplicationAsync();
+await app.RunAsync();

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TpFVXX1lx/8=",
+  "dgSpecHash": "cEBMMhsb31s=",
   "success": true,
-  "projectFilePath": "C:\\Work\\demo\\esms-8.0\\templates\\Esms.Platform\\Esms.Platform.Domain.Shared\\Esms.Platform.Domain.Shared.csproj",
+  "projectFilePath": "C:\\Work\\Demo\\esms-8.0\\templates\\Esms.Platform\\Esms.Platform.Domain.Shared\\Esms.Platform.Domain.Shared.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Qjc\\.nuget\\packages\\jetbrains.annotations\\2023.3.0\\jetbrains.annotations.2023.3.0.nupkg.sha512",
     "C:\\Users\\Qjc\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",

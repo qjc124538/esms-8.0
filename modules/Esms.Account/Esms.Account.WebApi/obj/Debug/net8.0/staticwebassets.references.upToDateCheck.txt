@@ -18,3 +18,9 @@ C:\Work\demo\esms-8.0\framework\Esms.Ddd.WebApi\obj\Debug\net8.0\staticwebassets
 C:\Work\demo\esms-8.0\framework\Esms.Ddd.WebApi\obj\Debug\net8.0\staticwebassets.build.json
 C:\Work\demo\esms-8.0\framework\Esms.Ddd.WebApi\obj\Debug\net8.0\staticwebassets.build.json
 C:\Work\demo\esms-8.0\framework\Esms.Ddd.WebApi\obj\Debug\net8.0\staticwebassets.build.json
+C:\Work\Demo\esms-8.0\framework\Esms.Ddd.WebApi\obj\Debug\net8.0\staticwebassets.build.json
+C:\Work\Demo\esms-8.0\framework\Esms.Ddd.WebApi\obj\Debug\net8.0\staticwebassets.build.json
+C:\Work\Demo\esms-8.0\framework\Esms.Ddd.WebApi\obj\Debug\net8.0\staticwebassets.build.json
+C:\Work\Demo\esms-8.0\framework\Esms.Ddd.WebApi\obj\Debug\net8.0\staticwebassets.build.json
+C:\Work\Demo\esms-8.0\framework\Esms.Ddd.WebApi\obj\Debug\net8.0\staticwebassets.build.json
+C:\Work\Demo\esms-8.0\framework\Esms.Ddd.WebApi\obj\Debug\net8.0\staticwebassets.build.json

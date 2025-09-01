@@ -13,3 +13,4 @@ C:\Work\demo\esms-8.0\framework\Esms.Ddd.Domain\obj\Debug\net8.0\Esms.Ddd.Domain
 C:\Work\demo\esms-8.0\framework\Esms.Ddd.Domain\obj\Debug\net8.0\refint\Esms.Ddd.Domain.dll
 C:\Work\demo\esms-8.0\framework\Esms.Ddd.Domain\obj\Debug\net8.0\Esms.Ddd.Domain.pdb
 C:\Work\demo\esms-8.0\framework\Esms.Ddd.Domain\obj\Debug\net8.0\ref\Esms.Ddd.Domain.dll
+C:\Work\Demo\esms-8.0\framework\Esms.Ddd.Domain\obj\Debug\net8.0\Esms.Ddd.Domain.sourcelink.json

@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\Esms.Account.WebApi.props" />
-</Project>

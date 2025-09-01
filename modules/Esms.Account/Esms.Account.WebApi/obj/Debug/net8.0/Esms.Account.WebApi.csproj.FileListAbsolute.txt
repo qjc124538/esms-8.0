@@ -545,12 +545,6 @@ C:\Work\demo\esms-8.0\modules\Esms.Account\Esms.Account.WebApi\obj\Debug\net8.0\
 C:\Work\demo\esms-8.0\modules\Esms.Account\Esms.Account.WebApi\obj\Debug\net8.0\staticwebassets.build.json
 C:\Work\demo\esms-8.0\modules\Esms.Account\Esms.Account.WebApi\obj\Debug\net8.0\staticwebassets.development.json
 C:\Work\demo\esms-8.0\modules\Esms.Account\Esms.Account.WebApi\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Work\demo\esms-8.0\modules\Esms.Account\Esms.Account.WebApi\obj\Debug\net8.0\staticwebassets\msbuild.Esms.Account.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Work\demo\esms-8.0\modules\Esms.Account\Esms.Account.WebApi\obj\Debug\net8.0\staticwebassets\msbuild.Esms.Account.WebApi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-C:\Work\demo\esms-8.0\modules\Esms.Account\Esms.Account.WebApi\obj\Debug\net8.0\staticwebassets\msbuild.build.Esms.Account.WebApi.props
-C:\Work\demo\esms-8.0\modules\Esms.Account\Esms.Account.WebApi\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Esms.Account.WebApi.props
-C:\Work\demo\esms-8.0\modules\Esms.Account\Esms.Account.WebApi\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Esms.Account.WebApi.props
-C:\Work\demo\esms-8.0\modules\Esms.Account\Esms.Account.WebApi\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Work\demo\esms-8.0\modules\Esms.Account\Esms.Account.WebApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Work\demo\esms-8.0\modules\Esms.Account\Esms.Account.WebApi\obj\Debug\net8.0\Esms.Acc.02918973.Up2Date
 C:\Work\demo\esms-8.0\modules\Esms.Account\Esms.Account.WebApi\obj\Debug\net8.0\Esms.Account.WebApi.dll
@@ -558,3 +552,9 @@ C:\Work\demo\esms-8.0\modules\Esms.Account\Esms.Account.WebApi\obj\Debug\net8.0\
 C:\Work\demo\esms-8.0\modules\Esms.Account\Esms.Account.WebApi\obj\Debug\net8.0\Esms.Account.WebApi.pdb
 C:\Work\demo\esms-8.0\modules\Esms.Account\Esms.Account.WebApi\obj\Debug\net8.0\Esms.Account.WebApi.genruntimeconfig.cache
 C:\Work\demo\esms-8.0\modules\Esms.Account\Esms.Account.WebApi\obj\Debug\net8.0\ref\Esms.Account.WebApi.dll
+C:\Work\Demo\esms-8.0\modules\Esms.Account\Esms.Account.WebApi\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Work\Demo\esms-8.0\modules\Esms.Account\Esms.Account.WebApi\obj\Debug\net8.0\Esms.Account.WebApi.sourcelink.json
+C:\Work\Demo\esms-8.0\modules\Esms.Account\Esms.Account.WebApi\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Work\Demo\esms-8.0\modules\Esms.Account\Esms.Account.WebApi\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Work\Demo\esms-8.0\modules\Esms.Account\Esms.Account.WebApi\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Work\Demo\esms-8.0\modules\Esms.Account\Esms.Account.WebApi\obj\Debug\net8.0\staticwebassets.build.json.cache
