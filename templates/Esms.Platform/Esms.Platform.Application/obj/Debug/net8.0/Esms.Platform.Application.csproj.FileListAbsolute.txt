@@ -26,7 +26,3 @@ C:\Work\Demo\esms-8.0\templates\Esms.Platform\Esms.Platform.Application\obj\Debu
 C:\Work\Demo\esms-8.0\templates\Esms.Platform\Esms.Platform.Application\obj\Debug\net8.0\refint\Esms.Platform.Application.dll
 C:\Work\Demo\esms-8.0\templates\Esms.Platform\Esms.Platform.Application\obj\Debug\net8.0\Esms.Platform.Application.pdb
 C:\Work\Demo\esms-8.0\templates\Esms.Platform\Esms.Platform.Application\obj\Debug\net8.0\ref\Esms.Platform.Application.dll
-C:\Work\Demo\esms-8.0\templates\Esms.Platform\Esms.Platform.Application\bin\Debug\net8.0\Esms.Account.Application.Contracts.dll
-C:\Work\Demo\esms-8.0\templates\Esms.Platform\Esms.Platform.Application\bin\Debug\net8.0\Esms.Account.Domain.Shared.dll
-C:\Work\Demo\esms-8.0\templates\Esms.Platform\Esms.Platform.Application\bin\Debug\net8.0\Esms.Account.Application.Contracts.pdb
-C:\Work\Demo\esms-8.0\templates\Esms.Platform\Esms.Platform.Application\bin\Debug\net8.0\Esms.Account.Domain.Shared.pdb

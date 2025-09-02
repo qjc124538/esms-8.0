@@ -23,61 +23,6 @@ namespace Esms.Platform.WebApi
             {
                 options.ConventionalControllers.Create(typeof(EsmsPlatformApplicationModule).Assembly);
             });
-            var configuration = context.Services.GetConfiguration();
-            var hostEnvironment = context.Services.GetAbpHostEnvironment();
-            context.Services.AddScoped(options =>
-            {
-                var connectionConfig = new ConnectionConfig
-                {
-                    ConnectionString = configuration["ConnectionStrings:EsmsPlatform"] ?? configuration["ConnectionStrings:Default"],
-                    IsAutoCloseConnection = true
-                };
-                var dataBaseType = configuration["DataBaseType"] ?? "Dm";
-                if (dataBaseType.Equals("Dm"))
-                {
-                    connectionConfig.DbType = DbType.Dm;
-                }
-                else if (dataBaseType.Equals("Oracle"))
-                {
-                    connectionConfig.DbType = DbType.Oracle;
-                }
-                else
-                {
-                    throw new NotImplementedException();
-                }
-                EsmsPlatformSqlSugarClient esmsAccountDbContext = new EsmsPlatformSqlSugarClient(connectionConfig);
-                if (hostEnvironment.IsDevelopment())
-                {
-                    esmsAccountDbContext.Context.Aop.OnLogExecuting = (s, p) =>
-                    {
-                        foreach (var item in p)
-                        {
-                            if (item.Value == null)
-                            {
-                                continue;
-                            }
-                            else if (item.DbType.ToString().ToLower() == "string")
-                            {
-                                s = s.Replace(item.ParameterName, "'" + item.Value.ToString() + "'");
-                            }
-                            else if (item.DbType.ToString().ToLower() == "datetime")
-                            {
-                                s = s.Replace(item.ParameterName, "to_date('" + item.Value.ToString() + "','yyyy-mm-dd hh24:mi:ss')");
-                            }
-                            else if (item.DbType.ToString().ToLower() == "boolean")
-                            {
-                                s = s.Replace(item.ParameterName, Convert.ToBoolean(item.Value) == true ? "1" : "0");
-                            }
-                            else
-                            {
-                                s = s.Replace(item.ParameterName, item.Value.ToString());
-                            }
-                        }
-                        Console.WriteLine(s.Trim() + (s.EndsWith(";") ? "" : ";"));
-                    };
-                }
-                return esmsAccountDbContext;
-            });
         }
 
         public override void ConfigureServices(ServiceConfigurationContext context)

@@ -3307,33 +3307,6 @@
           }
         }
       },
-      "Esms.Account.Application.Contracts/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "Esms.Account.Domain.Shared": "1.0.0",
-          "Esms.Ddd.Application.Contracts": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Esms.Account.Application.Contracts.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Esms.Account.Application.Contracts.dll": {}
-        }
-      },
-      "Esms.Account.Domain.Shared/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "Esms.Ddd.Domain.Shared": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Esms.Account.Domain.Shared.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Esms.Account.Domain.Shared.dll": {}
-        }
-      },
       "Esms.Ddd.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -9140,16 +9113,6 @@
         "volo.abp.virtualfilesystem.nuspec"
       ]
     },
-    "Esms.Account.Application.Contracts/1.0.0": {
-      "type": "project",
-      "path": "../../../modules/Esms.Account/Esms.Account.Application.Contracts/Esms.Account.Application.Contracts.csproj",
-      "msbuildProject": "../../../modules/Esms.Account/Esms.Account.Application.Contracts/Esms.Account.Application.Contracts.csproj"
-    },
-    "Esms.Account.Domain.Shared/1.0.0": {
-      "type": "project",
-      "path": "../../../modules/Esms.Account/Esms.Account.Domain.Shared/Esms.Account.Domain.Shared.csproj",
-      "msbuildProject": "../../../modules/Esms.Account/Esms.Account.Domain.Shared/Esms.Account.Domain.Shared.csproj"
-    },
     "Esms.Ddd.Application/1.0.0": {
       "type": "project",
       "path": "../../../framework/Esms.Ddd.Application/Esms.Ddd.Application.csproj",
@@ -9188,7 +9151,6 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Esms.Account.Application.Contracts >= 1.0.0",
       "Esms.Ddd.Application >= 1.0.0",
       "Esms.Platform.Application.Contracts >= 1.0.0",
       "Esms.Platform.Domain >= 1.0.0"
@@ -9229,9 +9191,6 @@
           "projectReferences": {
             "C:\\Work\\demo\\esms-8.0\\framework\\Esms.Ddd.Application\\Esms.Ddd.Application.csproj": {
               "projectPath": "C:\\Work\\demo\\esms-8.0\\framework\\Esms.Ddd.Application\\Esms.Ddd.Application.csproj"
-            },
-            "C:\\Work\\demo\\esms-8.0\\modules\\Esms.Account\\Esms.Account.Application.Contracts\\Esms.Account.Application.Contracts.csproj": {
-              "projectPath": "C:\\Work\\demo\\esms-8.0\\modules\\Esms.Account\\Esms.Account.Application.Contracts\\Esms.Account.Application.Contracts.csproj"
             },
             "C:\\Work\\demo\\esms-8.0\\templates\\Esms.Platform\\Esms.Platform.Application.Contracts\\Esms.Platform.Application.Contracts.csproj": {
               "projectPath": "C:\\Work\\demo\\esms-8.0\\templates\\Esms.Platform\\Esms.Platform.Application.Contracts\\Esms.Platform.Application.Contracts.csproj"

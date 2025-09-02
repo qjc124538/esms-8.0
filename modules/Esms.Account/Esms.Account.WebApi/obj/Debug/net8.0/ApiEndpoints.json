@@ -245,9 +245,9 @@
     ]
   },
   {
-    "ContainingType": "Esms.Account.Application.EsmsAccountTestService",
-    "Method": "AddAbpTestList",
-    "RelativePath": "api/app/esms-account-test/abp-test-list",
+    "ContainingType": "Esms.Ddd.Test.EsmsDddTestService",
+    "Method": "AddAbpTestListAsync",
+    "RelativePath": "api/app/esms-ddd-test/abp-test-list",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -255,6 +255,86 @@
       {
         "Name": "count",
         "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Volo.Abp.Http.RemoteServiceErrorResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 403
+      },
+      {
+        "Type": "Volo.Abp.Http.RemoteServiceErrorResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "Volo.Abp.Http.RemoteServiceErrorResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Volo.Abp.Http.RemoteServiceErrorResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "Volo.Abp.Http.RemoteServiceErrorResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 501
+      },
+      {
+        "Type": "Volo.Abp.Http.RemoteServiceErrorResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "Esms.Ddd.Test.EsmsDddTestService",
+    "Method": "DeleteAbpTestListAsync",
+    "RelativePath": "api/app/esms-ddd-test/abp-test-list",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idList",
+        "Type": "System.Collections.Generic.List\u00601[[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "IsRequired": false
       }
     ],
@@ -321,9 +401,9 @@
     ]
   },
   {
-    "ContainingType": "Esms.Account.Application.EsmsAccountTestService",
-    "Method": "GetAbpTestList",
-    "RelativePath": "api/app/esms-account-test/abp-test-list",
+    "ContainingType": "Esms.Ddd.Test.EsmsDddTestService",
+    "Method": "GetAbpTestListAsync",
+    "RelativePath": "api/app/esms-ddd-test/abp-test-list",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -395,82 +475,8 @@
     ]
   },
   {
-    "ContainingType": "Esms.Account.Application.EsmsAccountTestService",
-    "Method": "Excute",
-    "RelativePath": "api/app/esms-account-test/excute",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.String",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      },
-      {
-        "Type": "Volo.Abp.Http.RemoteServiceErrorResponse",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 403
-      },
-      {
-        "Type": "Volo.Abp.Http.RemoteServiceErrorResponse",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 401
-      },
-      {
-        "Type": "Volo.Abp.Http.RemoteServiceErrorResponse",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 400
-      },
-      {
-        "Type": "Volo.Abp.Http.RemoteServiceErrorResponse",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 404
-      },
-      {
-        "Type": "Volo.Abp.Http.RemoteServiceErrorResponse",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 501
-      },
-      {
-        "Type": "Volo.Abp.Http.RemoteServiceErrorResponse",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 500
-      }
-    ]
-  },
-  {
-    "ContainingType": "Esms.Ddd.Application.EsmsDddTestService",
-    "Method": "Excute",
+    "ContainingType": "Esms.Ddd.Test.EsmsDddTestService",
+    "Method": "ExcuteAsync",
     "RelativePath": "api/app/esms-ddd-test/excute",
     "HttpMethod": "POST",
     "IsController": true,

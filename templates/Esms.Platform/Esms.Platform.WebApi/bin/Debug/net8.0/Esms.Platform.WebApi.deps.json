@@ -3243,7 +3243,6 @@
       },
       "Esms.Platform.Application/1.0.0": {
         "dependencies": {
-          "Esms.Account.Application.Contracts": "1.0.0",
           "Esms.Ddd.Application": "1.0.0",
           "Esms.Platform.Application.Contracts": "1.0.0",
           "Esms.Platform.Domain": "1.0.0"

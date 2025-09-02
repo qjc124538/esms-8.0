@@ -8,7 +8,6 @@
     ".NETCoreApp,Version=v8.0": {
       "Esms.Platform.Application/1.0.0": {
         "dependencies": {
-          "Esms.Account.Application.Contracts": "1.0.0",
           "Esms.Ddd.Application": "1.0.0",
           "Esms.Platform.Application.Contracts": "1.0.0",
           "Esms.Platform.Domain": "1.0.0"
@@ -2200,29 +2199,6 @@
           }
         }
       },
-      "Esms.Account.Application.Contracts/1.0.0": {
-        "dependencies": {
-          "Esms.Account.Domain.Shared": "1.0.0",
-          "Esms.Ddd.Application.Contracts": "1.0.0"
-        },
-        "runtime": {
-          "Esms.Account.Application.Contracts.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "Esms.Account.Domain.Shared/1.0.0": {
-        "dependencies": {
-          "Esms.Ddd.Domain.Shared": "1.0.0"
-        },
-        "runtime": {
-          "Esms.Account.Domain.Shared.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
       "Esms.Ddd.Application/1.0.0": {
         "dependencies": {
           "Esms.Ddd.Application.Contracts": "1.0.0",
@@ -3590,16 +3566,6 @@
       "sha512": "sha512-uPpDF04O0PfwrjH65dG61dFW/JP8vJRTRscRpvJpGGg4/QDStyTIaa2bESVy5DdemqBsI6gzgOYe5YxI9DlYjA==",
       "path": "volo.abp.virtualfilesystem/8.3.4",
       "hashPath": "volo.abp.virtualfilesystem.8.3.4.nupkg.sha512"
-    },
-    "Esms.Account.Application.Contracts/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Esms.Account.Domain.Shared/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     },
     "Esms.Ddd.Application/1.0.0": {
       "type": "project",

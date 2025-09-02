@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Esms.Ddd.Domain
+namespace Esms.Ddd.Test
 {
     [SugarTable("ABP_TEST")]
     public class AbpTest

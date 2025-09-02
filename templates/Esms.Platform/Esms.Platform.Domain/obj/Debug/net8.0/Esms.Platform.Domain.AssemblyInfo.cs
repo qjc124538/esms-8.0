@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Esms.Platform.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8f702d7ef5209cb41b43e902bc95f168b0fdbf10")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c9e8341b4e114e6dbed330915d48c81efe63d690")]
 [assembly: System.Reflection.AssemblyProductAttribute("Esms.Platform.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Esms.Platform.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
