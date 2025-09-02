@@ -79,7 +79,6 @@ namespace Esms.Account.WebApi
                 }
                 return esmsAccountDbContext;
             });
-            context.Services.AddScoped<EsmsAccountUnitOfWorkMiddleware>();
         }
 
         public override void ConfigureServices(ServiceConfigurationContext context)
@@ -107,7 +106,6 @@ namespace Esms.Account.WebApi
                 options.SwaggerEndpoint("/swagger/v1/swagger.json", "EsmsAccount API");
             });
             app.UseRouting();
-            app.UseMiddleware<EsmsAccountUnitOfWorkMiddleware>();
             app.UseConfiguredEndpoints();
         }
     }

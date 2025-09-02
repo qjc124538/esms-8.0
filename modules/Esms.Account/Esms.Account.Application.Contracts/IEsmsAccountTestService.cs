@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Esms.Account.Application.Contracts
 {
-    public interface IEsmsAccountTestService: IEsmsApplicationService
+    public interface IEsmsAccountTestService: IEsmsDddApplicationService
     {
         Task<string> ExcuteAsync();
 

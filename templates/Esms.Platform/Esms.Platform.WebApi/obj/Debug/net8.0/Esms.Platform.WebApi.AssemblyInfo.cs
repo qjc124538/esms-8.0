@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Esms.Platform.WebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0e03c10b8cafb70606630b74c1838329b3c394eb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8f702d7ef5209cb41b43e902bc95f168b0fdbf10")]
 [assembly: System.Reflection.AssemblyProductAttribute("Esms.Platform.WebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Esms.Platform.WebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

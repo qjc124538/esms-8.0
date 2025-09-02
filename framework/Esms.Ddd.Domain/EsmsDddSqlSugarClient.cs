@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace Esms.Ddd.Domain
 {
-    public abstract class EsmsSqlSugarClient : SqlSugarClient
+    public abstract class EsmsDddSqlSugarClient : SqlSugarClient
     {
-        public EsmsSqlSugarClient(ConnectionConfig config) : base(config)
+        public EsmsDddSqlSugarClient(ConnectionConfig config) : base(config)
         {
         }
     }

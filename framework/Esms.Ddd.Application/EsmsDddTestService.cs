@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Esms.Ddd.Application
 {
-    public class EsmsDddTestService : EsmsApplicationService, IEsmsDddTestService
+    public class EsmsDddTestService : EsmsDddApplicationService, IEsmsDddTestService
     {
         public async Task<string> Excute()
         {

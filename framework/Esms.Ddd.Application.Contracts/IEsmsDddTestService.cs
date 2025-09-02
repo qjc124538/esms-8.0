@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Esms.Ddd.Application.Contracts
 {
-    public interface IEsmsDddTestService: IEsmsApplicationService
+    public interface IEsmsDddTestService: IEsmsDddApplicationService
     {
         Task<string> Excute();
     }

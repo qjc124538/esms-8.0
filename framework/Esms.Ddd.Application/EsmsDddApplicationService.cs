@@ -8,8 +8,7 @@ using Volo.Abp.Application.Services;
 
 namespace Esms.Ddd.Application
 {
-    [EsmsSqlSugarUnitOfWork]
-    public abstract class EsmsApplicationService: ApplicationService
+    public abstract class EsmsDddApplicationService: ApplicationService
     {
     }
 }

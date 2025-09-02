@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace Esms.Account.Application
 {
-    public class EsmsAccountTestService: EsmsApplicationService, IEsmsAccountTestService
+    public class EsmsAccountTestService: EsmsDddApplicationService, IEsmsAccountTestService
     {
         private readonly EsmsAccountSqlSugarClient esmsAccountSqlSugarClient;
 

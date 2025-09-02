@@ -78,7 +78,6 @@ namespace Esms.Platform.WebApi
                 }
                 return esmsAccountDbContext;
             });
-            context.Services.AddScoped<EsmsPlatformSqlSugarUnitOfWorkMiddleware>();
         }
 
         public override void ConfigureServices(ServiceConfigurationContext context)
@@ -106,8 +105,6 @@ namespace Esms.Platform.WebApi
                 options.SwaggerEndpoint("/swagger/v1/swagger.json", "EsmsPlatform API");
             });
             app.UseRouting();
-            app.UseMiddleware<EsmsAccountSqlSugarUnitOfWorkMiddleware>();
-            app.UseMiddleware<EsmsPlatformSqlSugarUnitOfWorkMiddleware>();
             app.UseConfiguredEndpoints();
         }
     }

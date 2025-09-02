@@ -7,7 +7,7 @@ using Volo.Abp.Application.Services;
 
 namespace Esms.Ddd.Application.Contracts
 {
-    public interface IEsmsApplicationService: IApplicationService
+    public interface IEsmsDddApplicationService: IApplicationService
     {
     }
 }

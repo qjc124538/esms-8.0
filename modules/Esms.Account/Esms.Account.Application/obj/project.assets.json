@@ -9163,11 +9163,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Work\\Demo\\esms-8.0\\modules\\Esms.Account\\Esms.Account.Application\\Esms.Account.Application.csproj",
+      "projectUniqueName": "C:\\Work\\demo\\esms-8.0\\modules\\Esms.Account\\Esms.Account.Application\\Esms.Account.Application.csproj",
       "projectName": "Esms.Account.Application",
-      "projectPath": "C:\\Work\\Demo\\esms-8.0\\modules\\Esms.Account\\Esms.Account.Application\\Esms.Account.Application.csproj",
+      "projectPath": "C:\\Work\\demo\\esms-8.0\\modules\\Esms.Account\\Esms.Account.Application\\Esms.Account.Application.csproj",
       "packagesPath": "C:\\Users\\Qjc\\.nuget\\packages\\",
-      "outputPath": "C:\\Work\\Demo\\esms-8.0\\modules\\Esms.Account\\Esms.Account.Application\\obj\\",
+      "outputPath": "C:\\Work\\demo\\esms-8.0\\modules\\Esms.Account\\Esms.Account.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -9182,20 +9182,21 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Work\\Demo\\esms-8.0\\framework\\Esms.Ddd.Application\\Esms.Ddd.Application.csproj": {
-              "projectPath": "C:\\Work\\Demo\\esms-8.0\\framework\\Esms.Ddd.Application\\Esms.Ddd.Application.csproj"
+            "C:\\Work\\demo\\esms-8.0\\framework\\Esms.Ddd.Application\\Esms.Ddd.Application.csproj": {
+              "projectPath": "C:\\Work\\demo\\esms-8.0\\framework\\Esms.Ddd.Application\\Esms.Ddd.Application.csproj"
             },
-            "C:\\Work\\Demo\\esms-8.0\\modules\\Esms.Account\\Esms.Account.Application.Contracts\\Esms.Account.Application.Contracts.csproj": {
-              "projectPath": "C:\\Work\\Demo\\esms-8.0\\modules\\Esms.Account\\Esms.Account.Application.Contracts\\Esms.Account.Application.Contracts.csproj"
+            "C:\\Work\\demo\\esms-8.0\\modules\\Esms.Account\\Esms.Account.Application.Contracts\\Esms.Account.Application.Contracts.csproj": {
+              "projectPath": "C:\\Work\\demo\\esms-8.0\\modules\\Esms.Account\\Esms.Account.Application.Contracts\\Esms.Account.Application.Contracts.csproj"
             },
-            "C:\\Work\\Demo\\esms-8.0\\modules\\Esms.Account\\Esms.Account.Domain\\Esms.Account.Domain.csproj": {
-              "projectPath": "C:\\Work\\Demo\\esms-8.0\\modules\\Esms.Account\\Esms.Account.Domain\\Esms.Account.Domain.csproj"
+            "C:\\Work\\demo\\esms-8.0\\modules\\Esms.Account\\Esms.Account.Domain\\Esms.Account.Domain.csproj": {
+              "projectPath": "C:\\Work\\demo\\esms-8.0\\modules\\Esms.Account\\Esms.Account.Domain\\Esms.Account.Domain.csproj"
             }
           }
         }
@@ -9210,7 +9211,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net8.0": {
@@ -9231,7 +9232,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -77,7 +77,6 @@ namespace Esms.Account.WebApi
                 }
                 return esmsAccountDbContext;
             });
-            context.Services.AddScoped<EsmsAccountUnitOfWorkMiddleware>();
         }
     }
 }
