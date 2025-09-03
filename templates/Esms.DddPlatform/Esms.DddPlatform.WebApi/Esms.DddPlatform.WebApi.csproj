@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\modules\Esms.Account\Esms.Account.WebApi\Esms.Account.WebApi.csproj" />
+    <ProjectReference Include="..\..\..\modules\Esms.Scm\Esms.Scm.WebApi\Esms.Scm.WebApi.csproj" />
+  </ItemGroup>
+
+</Project>

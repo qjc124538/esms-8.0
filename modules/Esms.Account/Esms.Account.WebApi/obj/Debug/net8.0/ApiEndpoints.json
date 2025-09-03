@@ -476,6 +476,80 @@
   },
   {
     "ContainingType": "Esms.Ddd.Test.EsmsDddTestService",
+    "Method": "GetCurrentPrincipalAccessor",
+    "RelativePath": "api/app/esms-ddd-test/current-principal-accessor",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Volo.Abp.Http.RemoteServiceErrorResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 403
+      },
+      {
+        "Type": "Volo.Abp.Http.RemoteServiceErrorResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "Volo.Abp.Http.RemoteServiceErrorResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Volo.Abp.Http.RemoteServiceErrorResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "Volo.Abp.Http.RemoteServiceErrorResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 501
+      },
+      {
+        "Type": "Volo.Abp.Http.RemoteServiceErrorResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "Esms.Ddd.Test.EsmsDddTestService",
     "Method": "ExcuteAsync",
     "RelativePath": "api/app/esms-ddd-test/excute",
     "HttpMethod": "POST",

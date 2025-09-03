@@ -2,7 +2,9 @@
 using Esms.Account.Application;
 using Esms.Account.Domain;
 using Esms.Ddd.Domain;
+using Esms.Ddd.Domain.Shared.Accessors;
 using Esms.Ddd.WebApi;
+using Esms.Ddd.WebApi.Extensions;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OpenApi.Models;
 using SqlSugar;
@@ -14,21 +16,17 @@ using Volo.Abp.Modularity;
 namespace Esms.Account.WebApi
 {
     [DependsOn(
-        typeof(EsmsAccountApplicationModule),
-        typeof(EsmsDddWebApiModule)
+        typeof(EsmsAccountWebApiModule)
         )]
     internal class EsmsAccountWebApiInternalModule : AbpModule
     {
-        public override void PreConfigureServices(ServiceConfigurationContext context)
-        {
-            PreConfigure<AbpAspNetCoreMvcOptions>(options =>
-            {
-                options.ConventionalControllers.Create(typeof(EsmsAccountApplicationModule).Assembly);
-            });
-        }
-
         public override void ConfigureServices(ServiceConfigurationContext context)
         {
+            context.Services.AddEsmsDddDbContext();
+            context.Services.AddEsmsDddCurrentPrincipalAccessor(() =>
+            {
+                return new EsmsDddCurrentPrincipalAccessor("Development", null);
+            });
             context.Services.AddAbpSwaggerGen(options =>
             {
                 options.SwaggerDoc("v1", new OpenApiInfo { Title = "EsmsAccount API", Version = "v1" });

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "FcenVIkqL68=",
+  "dgSpecHash": "1wUifoSbVDI=",
   "success": true,
   "projectFilePath": "C:\\Work\\demo\\esms-8.0\\modules\\Esms.Account\\Esms.Account.WebApi\\Esms.Account.WebApi.csproj",
   "expectedPackageFiles": [
@@ -215,7 +215,16 @@
     "C:\\Users\\Qjc\\.nuget\\packages\\volo.abp.validation\\8.3.4\\volo.abp.validation.8.3.4.nupkg.sha512",
     "C:\\Users\\Qjc\\.nuget\\packages\\volo.abp.validation.abstractions\\8.3.4\\volo.abp.validation.abstractions.8.3.4.nupkg.sha512",
     "C:\\Users\\Qjc\\.nuget\\packages\\volo.abp.virtualfilesystem\\8.3.4\\volo.abp.virtualfilesystem.8.3.4.nupkg.sha512",
-    "C:\\Users\\Qjc\\.nuget\\packages\\yamldotnet\\13.1.1\\yamldotnet.13.1.1.nupkg.sha512"
+    "C:\\Users\\Qjc\\.nuget\\packages\\yamldotnet\\13.1.1\\yamldotnet.13.1.1.nupkg.sha512",
+    "C:\\Users\\Qjc\\.nuget\\packages\\esms.account.application\\1.0.0\\esms.account.application.1.0.0.nupkg.sha512",
+    "C:\\Users\\Qjc\\.nuget\\packages\\esms.account.application.contracts\\1.0.0\\esms.account.application.contracts.1.0.0.nupkg.sha512",
+    "C:\\Users\\Qjc\\.nuget\\packages\\esms.account.domain\\1.0.0\\esms.account.domain.1.0.0.nupkg.sha512",
+    "C:\\Users\\Qjc\\.nuget\\packages\\esms.account.domain.shared\\1.0.0\\esms.account.domain.shared.1.0.0.nupkg.sha512",
+    "C:\\Users\\Qjc\\.nuget\\packages\\esms.ddd.application\\1.0.0\\esms.ddd.application.1.0.0.nupkg.sha512",
+    "C:\\Users\\Qjc\\.nuget\\packages\\esms.ddd.application.contracts\\1.0.0\\esms.ddd.application.contracts.1.0.0.nupkg.sha512",
+    "C:\\Users\\Qjc\\.nuget\\packages\\esms.ddd.domain\\1.0.0\\esms.ddd.domain.1.0.0.nupkg.sha512",
+    "C:\\Users\\Qjc\\.nuget\\packages\\esms.ddd.domain.shared\\1.0.0\\esms.ddd.domain.shared.1.0.0.nupkg.sha512",
+    "C:\\Users\\Qjc\\.nuget\\packages\\esms.ddd.webapi\\1.0.0\\esms.ddd.webapi.1.0.0.nupkg.sha512"
   ],
   "logs": []
 }

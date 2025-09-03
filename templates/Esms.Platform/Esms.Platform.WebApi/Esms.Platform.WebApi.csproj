@@ -7,12 +7,16 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <Compile Remove="Controllers\**" />
+    <Content Remove="Controllers\**" />
+    <EmbeddedResource Remove="Controllers\**" />
+    <None Remove="Controllers\**" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\framework\Esms.Ddd.WebApi\Esms.Ddd.WebApi.csproj" />
     <ProjectReference Include="..\..\..\modules\Esms.Account\Esms.Account.WebApi\Esms.Account.WebApi.csproj" />
+    <ProjectReference Include="..\..\..\modules\Esms.Scm\Esms.Scm.WebApi\Esms.Scm.WebApi.csproj" />
     <ProjectReference Include="..\Esms.Platform.Application\Esms.Platform.Application.csproj" />
   </ItemGroup>
 

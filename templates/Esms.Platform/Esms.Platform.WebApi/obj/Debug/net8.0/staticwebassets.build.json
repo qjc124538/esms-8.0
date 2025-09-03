@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lgV1ueFQrxGZdPPpj7zcM3u89IS8QRWx6VKriyTGUd4=",
+  "Hash": "0JYAGoG/lQrHw/tHcadV+I5i7gURveOdBfhXuDgxZn0=",
   "Source": "Esms.Platform.WebApi",
   "BasePath": "_content/Esms.Platform.WebApi",
   "Mode": "Default",
@@ -21,6 +21,17 @@
       "Identity": "C:\\Work\\demo\\esms-8.0\\modules\\Esms.Account\\Esms.Account.WebApi\\Esms.Account.WebApi.csproj",
       "Version": 2,
       "Source": "Esms.Account.WebApi",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    },
+    {
+      "Identity": "C:\\Work\\demo\\esms-8.0\\modules\\Esms.Scm\\Esms.Scm.WebApi\\Esms.Scm.WebApi.csproj",
+      "Version": 2,
+      "Source": "Esms.Scm.WebApi",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
       "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",

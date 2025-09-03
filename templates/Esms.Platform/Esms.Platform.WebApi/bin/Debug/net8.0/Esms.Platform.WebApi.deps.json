@@ -39,6 +39,7 @@
           "Esms.Account.WebApi": "1.0.0",
           "Esms.Ddd.WebApi": "1.0.0",
           "Esms.Platform.Application": "1.0.0",
+          "Esms.Scm.WebApi": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "8.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions.Reference": "8.0.0.0",
           "Microsoft.AspNetCore.Authentication.BearerToken": "8.0.0.0",
@@ -3299,6 +3300,81 @@
         },
         "compile": {
           "Esms.Platform.Domain.Shared.dll": {}
+        }
+      },
+      "Esms.Scm.Application/1.0.0": {
+        "dependencies": {
+          "Esms.Ddd.Application": "1.0.0",
+          "Esms.Scm.Application.Contracts": "1.0.0",
+          "Esms.Scm.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Esms.Scm.Application.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "compile": {
+          "Esms.Scm.Application.dll": {}
+        }
+      },
+      "Esms.Scm.Application.Contracts/1.0.0": {
+        "dependencies": {
+          "Esms.Ddd.Application.Contracts": "1.0.0",
+          "Esms.Scm.Domain.Shared": "1.0.0"
+        },
+        "runtime": {
+          "Esms.Scm.Application.Contracts.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "compile": {
+          "Esms.Scm.Application.Contracts.dll": {}
+        }
+      },
+      "Esms.Scm.Domain/1.0.0": {
+        "dependencies": {
+          "Esms.Ddd.Domain": "1.0.0",
+          "Esms.Scm.Domain.Shared": "1.0.0"
+        },
+        "runtime": {
+          "Esms.Scm.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "compile": {
+          "Esms.Scm.Domain.dll": {}
+        }
+      },
+      "Esms.Scm.Domain.Shared/1.0.0": {
+        "dependencies": {
+          "Esms.Ddd.Domain.Shared": "1.0.0"
+        },
+        "runtime": {
+          "Esms.Scm.Domain.Shared.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "compile": {
+          "Esms.Scm.Domain.Shared.dll": {}
+        }
+      },
+      "Esms.Scm.WebApi/1.0.0": {
+        "dependencies": {
+          "Esms.Ddd.WebApi": "1.0.0",
+          "Esms.Scm.Application": "1.0.0"
+        },
+        "runtime": {
+          "Esms.Scm.WebApi.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "compile": {
+          "Esms.Scm.WebApi.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/8.0.0.0": {
@@ -6665,6 +6741,31 @@
       "sha512": ""
     },
     "Esms.Platform.Domain.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Esms.Scm.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Esms.Scm.Application.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Esms.Scm.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Esms.Scm.Domain.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Esms.Scm.WebApi/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

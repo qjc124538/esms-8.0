@@ -1,85 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Work\\demo\\esms-8.0\\templates\\Esms.Platform\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{27DBA1A8-F8AA-81DC-CCE1-374F5E3C32F2}|..\\..\\framework\\Esms.Ddd.Domain.Shared\\Esms.Ddd.Domain.Shared.csproj|c:\\work\\demo\\esms-8.0\\framework\\esms.ddd.domain.shared\\accessors\\esmsdddcurrentprincipalaccessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{681DA2BD-8235-B219-846F-0AA49F3FDE08}|..\\..\\framework\\Esms.Ddd.Application.Contracts\\Esms.Ddd.Application.Contracts.csproj|c:\\work\\demo\\esms-8.0\\framework\\esms.ddd.application.contracts\\test\\iesmsdddtestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61D9611D-5F2B-F067-4E24-D80DA1347628}|..\\..\\framework\\Esms.Ddd.Application\\Esms.Ddd.Application.csproj|c:\\work\\demo\\esms-8.0\\framework\\esms.ddd.application\\esmsdddapplicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61D9611D-5F2B-F067-4E24-D80DA1347628}|..\\..\\framework\\Esms.Ddd.Application\\Esms.Ddd.Application.csproj|c:\\work\\demo\\esms-8.0\\framework\\esms.ddd.application\\test\\esmsdddtestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IEsmsDddTestService.cs",
-              "DocumentMoniker": "C:\\Work\\demo\\esms-8.0\\framework\\Esms.Ddd.Application.Contracts\\Test\\IEsmsDddTestService.cs",
-              "RelativeDocumentMoniker": "..\\..\\framework\\Esms.Ddd.Application.Contracts\\Test\\IEsmsDddTestService.cs",
-              "ToolTip": "C:\\Work\\demo\\esms-8.0\\framework\\Esms.Ddd.Application.Contracts\\Test\\IEsmsDddTestService.cs",
-              "RelativeToolTip": "..\\..\\framework\\Esms.Ddd.Application.Contracts\\Test\\IEsmsDddTestService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAswAkAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T09:48:49.137Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EsmsDddCurrentPrincipalAccessor.cs",
-              "DocumentMoniker": "C:\\Work\\demo\\esms-8.0\\framework\\Esms.Ddd.Domain.Shared\\Accessors\\EsmsDddCurrentPrincipalAccessor.cs",
-              "RelativeDocumentMoniker": "..\\..\\framework\\Esms.Ddd.Domain.Shared\\Accessors\\EsmsDddCurrentPrincipalAccessor.cs",
-              "ToolTip": "C:\\Work\\demo\\esms-8.0\\framework\\Esms.Ddd.Domain.Shared\\Accessors\\EsmsDddCurrentPrincipalAccessor.cs",
-              "RelativeToolTip": "..\\..\\framework\\Esms.Ddd.Domain.Shared\\Accessors\\EsmsDddCurrentPrincipalAccessor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwkAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T09:54:02.037Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EsmsDddTestService.cs",
-              "DocumentMoniker": "C:\\Work\\demo\\esms-8.0\\framework\\Esms.Ddd.Application\\Test\\EsmsDddTestService.cs",
-              "RelativeDocumentMoniker": "..\\..\\framework\\Esms.Ddd.Application\\Test\\EsmsDddTestService.cs",
-              "ToolTip": "C:\\Work\\demo\\esms-8.0\\framework\\Esms.Ddd.Application\\Test\\EsmsDddTestService.cs",
-              "RelativeToolTip": "..\\..\\framework\\Esms.Ddd.Application\\Test\\EsmsDddTestService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T09:49:16.328Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EsmsDddApplicationService.cs",
-              "DocumentMoniker": "C:\\Work\\demo\\esms-8.0\\framework\\Esms.Ddd.Application\\EsmsDddApplicationService.cs",
-              "RelativeDocumentMoniker": "..\\..\\framework\\Esms.Ddd.Application\\EsmsDddApplicationService.cs",
-              "ToolTip": "C:\\Work\\demo\\esms-8.0\\framework\\Esms.Ddd.Application\\EsmsDddApplicationService.cs",
-              "RelativeToolTip": "..\\..\\framework\\Esms.Ddd.Application\\EsmsDddApplicationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAswBAAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T09:49:04.239Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

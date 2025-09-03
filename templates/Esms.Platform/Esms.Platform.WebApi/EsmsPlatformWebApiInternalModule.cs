@@ -1,7 +1,10 @@
 ﻿using Esms.Account.WebApi;
+using Esms.Ddd.Domain.Shared.Accessors;
 using Esms.Ddd.WebApi;
+using Esms.Ddd.WebApi.Extensions;
 using Esms.Platform.Application;
 using Esms.Platform.Domain;
+using Esms.Scm.WebApi;
 using Microsoft.OpenApi.Models;
 using SqlSugar;
 using Volo.Abp;
@@ -11,22 +14,17 @@ using Volo.Abp.Modularity;
 namespace Esms.Platform.WebApi
 {
     [DependsOn(
-        typeof(EsmsPlatformApplicationModule),
-        typeof(EsmsAccountWebApiModule),
-        typeof(EsmsDddWebApiModule)
+        typeof(EsmsPlatformWebApiModule)
         )]
     internal class EsmsPlatformWebApiInternalModule: AbpModule
     {
-        public override void PreConfigureServices(ServiceConfigurationContext context)
-        {
-            PreConfigure<AbpAspNetCoreMvcOptions>(options =>
-            {
-                options.ConventionalControllers.Create(typeof(EsmsPlatformApplicationModule).Assembly);
-            });
-        }
-
         public override void ConfigureServices(ServiceConfigurationContext context)
         {
+            context.Services.AddEsmsDddDbContext();
+            context.Services.AddEsmsDddCurrentPrincipalAccessor(() =>
+            {
+                return new EsmsDddCurrentPrincipalAccessor("Development", null);
+            });
             context.Services.AddAbpSwaggerGen(options =>
             {
                 options.SwaggerDoc("v1", new OpenApiInfo { Title = "EsmsPlatform API", Version = "v1" });

@@ -573,3 +573,17 @@ C:\Work\demo\esms-8.0\templates\Esms.Platform\Esms.Platform.WebApi\obj\Debug\net
 C:\Work\demo\esms-8.0\templates\Esms.Platform\Esms.Platform.WebApi\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Esms.Platform.WebApi.props
 C:\Work\demo\esms-8.0\templates\Esms.Platform\Esms.Platform.WebApi\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Esms.Platform.WebApi.props
 C:\Work\demo\esms-8.0\templates\Esms.Platform\Esms.Platform.WebApi\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Work\demo\esms-8.0\templates\Esms.Platform\Esms.Platform.WebApi\bin\Debug\net8.0\Esms.Scm.WebApi.deps.json
+C:\Work\demo\esms-8.0\templates\Esms.Platform\Esms.Platform.WebApi\bin\Debug\net8.0\Esms.Scm.WebApi.runtimeconfig.json
+C:\Work\demo\esms-8.0\templates\Esms.Platform\Esms.Platform.WebApi\bin\Debug\net8.0\Esms.Scm.WebApi.staticwebassets.endpoints.json
+C:\Work\demo\esms-8.0\templates\Esms.Platform\Esms.Platform.WebApi\bin\Debug\net8.0\Esms.Scm.WebApi.exe
+C:\Work\demo\esms-8.0\templates\Esms.Platform\Esms.Platform.WebApi\bin\Debug\net8.0\Esms.Scm.Application.Contracts.dll
+C:\Work\demo\esms-8.0\templates\Esms.Platform\Esms.Platform.WebApi\bin\Debug\net8.0\Esms.Scm.Application.dll
+C:\Work\demo\esms-8.0\templates\Esms.Platform\Esms.Platform.WebApi\bin\Debug\net8.0\Esms.Scm.Domain.dll
+C:\Work\demo\esms-8.0\templates\Esms.Platform\Esms.Platform.WebApi\bin\Debug\net8.0\Esms.Scm.Domain.Shared.dll
+C:\Work\demo\esms-8.0\templates\Esms.Platform\Esms.Platform.WebApi\bin\Debug\net8.0\Esms.Scm.WebApi.dll
+C:\Work\demo\esms-8.0\templates\Esms.Platform\Esms.Platform.WebApi\bin\Debug\net8.0\Esms.Scm.WebApi.pdb
+C:\Work\demo\esms-8.0\templates\Esms.Platform\Esms.Platform.WebApi\bin\Debug\net8.0\Esms.Scm.Application.pdb
+C:\Work\demo\esms-8.0\templates\Esms.Platform\Esms.Platform.WebApi\bin\Debug\net8.0\Esms.Scm.Application.Contracts.pdb
+C:\Work\demo\esms-8.0\templates\Esms.Platform\Esms.Platform.WebApi\bin\Debug\net8.0\Esms.Scm.Domain.pdb
+C:\Work\demo\esms-8.0\templates\Esms.Platform\Esms.Platform.WebApi\bin\Debug\net8.0\Esms.Scm.Domain.Shared.pdb

@@ -7,14 +7,14 @@ using Volo.Abp.DependencyInjection;
 
 namespace Esms.Ddd.Domain.Shared.Accessors
 {
-    public class EsmsDddCurrentPrincipalAccessor: IScopedDependency
+    public class EsmsDddCurrentPrincipalAccessor
     {
         public string? UserId { get; }
         public decimal? CorpNo { get; }
-        public EsmsDddCurrentPrincipalAccessor()
+        public EsmsDddCurrentPrincipalAccessor(string userId, decimal? corpNo)
         {
-            UserId = "Development";
-            CorpNo = null;
+            UserId = userId;
+            CorpNo = corpNo;
         }
     }
 }

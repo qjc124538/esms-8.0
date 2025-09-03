@@ -4,6 +4,12 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <IsPackable>true</IsPackable>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\framework\Esms.Ddd.WebApi\Esms.Ddd.WebApi.csproj" />
+    <ProjectReference Include="..\Esms.Scm.Application\Esms.Scm.Application.csproj" />
+  </ItemGroup>
 
 </Project>

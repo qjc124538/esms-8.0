@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "k2wfifoIwW4=",
+  "dgSpecHash": "25MG8KkkSp4=",
   "success": true,
   "projectFilePath": "C:\\Work\\demo\\esms-8.0\\framework\\Esms.Ddd.Application.Contracts\\Esms.Ddd.Application.Contracts.csproj",
   "expectedPackageFiles": [
@@ -77,7 +77,8 @@
     "C:\\Users\\Qjc\\.nuget\\packages\\volo.abp.threading\\8.3.4\\volo.abp.threading.8.3.4.nupkg.sha512",
     "C:\\Users\\Qjc\\.nuget\\packages\\volo.abp.uow\\8.3.4\\volo.abp.uow.8.3.4.nupkg.sha512",
     "C:\\Users\\Qjc\\.nuget\\packages\\volo.abp.validation.abstractions\\8.3.4\\volo.abp.validation.abstractions.8.3.4.nupkg.sha512",
-    "C:\\Users\\Qjc\\.nuget\\packages\\volo.abp.virtualfilesystem\\8.3.4\\volo.abp.virtualfilesystem.8.3.4.nupkg.sha512"
+    "C:\\Users\\Qjc\\.nuget\\packages\\volo.abp.virtualfilesystem\\8.3.4\\volo.abp.virtualfilesystem.8.3.4.nupkg.sha512",
+    "C:\\Users\\Qjc\\.nuget\\packages\\esms.ddd.domain.shared\\1.0.0\\esms.ddd.domain.shared.1.0.0.nupkg.sha512"
   ],
   "logs": []
 }

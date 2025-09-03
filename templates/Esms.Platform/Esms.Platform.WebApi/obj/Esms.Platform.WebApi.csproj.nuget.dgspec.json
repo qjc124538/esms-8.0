@@ -774,6 +774,374 @@
         }
       }
     },
+    "C:\\Work\\demo\\esms-8.0\\modules\\Esms.Scm\\Esms.Scm.Application.Contracts\\Esms.Scm.Application.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Work\\demo\\esms-8.0\\modules\\Esms.Scm\\Esms.Scm.Application.Contracts\\Esms.Scm.Application.Contracts.csproj",
+        "projectName": "Esms.Scm.Application.Contracts",
+        "projectPath": "C:\\Work\\demo\\esms-8.0\\modules\\Esms.Scm\\Esms.Scm.Application.Contracts\\Esms.Scm.Application.Contracts.csproj",
+        "packagesPath": "C:\\Users\\Qjc\\.nuget\\packages\\",
+        "outputPath": "C:\\Work\\demo\\esms-8.0\\modules\\Esms.Scm\\Esms.Scm.Application.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Qjc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Work\\demo\\esms-8.0\\framework\\Esms.Ddd.Application.Contracts\\Esms.Ddd.Application.Contracts.csproj": {
+                "projectPath": "C:\\Work\\demo\\esms-8.0\\framework\\Esms.Ddd.Application.Contracts\\Esms.Ddd.Application.Contracts.csproj"
+              },
+              "C:\\Work\\demo\\esms-8.0\\modules\\Esms.Scm\\Esms.Scm.Domain.Shared\\Esms.Scm.Domain.Shared.csproj": {
+                "projectPath": "C:\\Work\\demo\\esms-8.0\\modules\\Esms.Scm\\Esms.Scm.Domain.Shared\\Esms.Scm.Domain.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Work\\demo\\esms-8.0\\modules\\Esms.Scm\\Esms.Scm.Application\\Esms.Scm.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Work\\demo\\esms-8.0\\modules\\Esms.Scm\\Esms.Scm.Application\\Esms.Scm.Application.csproj",
+        "projectName": "Esms.Scm.Application",
+        "projectPath": "C:\\Work\\demo\\esms-8.0\\modules\\Esms.Scm\\Esms.Scm.Application\\Esms.Scm.Application.csproj",
+        "packagesPath": "C:\\Users\\Qjc\\.nuget\\packages\\",
+        "outputPath": "C:\\Work\\demo\\esms-8.0\\modules\\Esms.Scm\\Esms.Scm.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Qjc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Work\\demo\\esms-8.0\\framework\\Esms.Ddd.Application\\Esms.Ddd.Application.csproj": {
+                "projectPath": "C:\\Work\\demo\\esms-8.0\\framework\\Esms.Ddd.Application\\Esms.Ddd.Application.csproj"
+              },
+              "C:\\Work\\demo\\esms-8.0\\modules\\Esms.Scm\\Esms.Scm.Application.Contracts\\Esms.Scm.Application.Contracts.csproj": {
+                "projectPath": "C:\\Work\\demo\\esms-8.0\\modules\\Esms.Scm\\Esms.Scm.Application.Contracts\\Esms.Scm.Application.Contracts.csproj"
+              },
+              "C:\\Work\\demo\\esms-8.0\\modules\\Esms.Scm\\Esms.Scm.Domain\\Esms.Scm.Domain.csproj": {
+                "projectPath": "C:\\Work\\demo\\esms-8.0\\modules\\Esms.Scm\\Esms.Scm.Domain\\Esms.Scm.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Work\\demo\\esms-8.0\\modules\\Esms.Scm\\Esms.Scm.Domain.Shared\\Esms.Scm.Domain.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Work\\demo\\esms-8.0\\modules\\Esms.Scm\\Esms.Scm.Domain.Shared\\Esms.Scm.Domain.Shared.csproj",
+        "projectName": "Esms.Scm.Domain.Shared",
+        "projectPath": "C:\\Work\\demo\\esms-8.0\\modules\\Esms.Scm\\Esms.Scm.Domain.Shared\\Esms.Scm.Domain.Shared.csproj",
+        "packagesPath": "C:\\Users\\Qjc\\.nuget\\packages\\",
+        "outputPath": "C:\\Work\\demo\\esms-8.0\\modules\\Esms.Scm\\Esms.Scm.Domain.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Qjc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Work\\demo\\esms-8.0\\framework\\Esms.Ddd.Domain.Shared\\Esms.Ddd.Domain.Shared.csproj": {
+                "projectPath": "C:\\Work\\demo\\esms-8.0\\framework\\Esms.Ddd.Domain.Shared\\Esms.Ddd.Domain.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Work\\demo\\esms-8.0\\modules\\Esms.Scm\\Esms.Scm.Domain\\Esms.Scm.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Work\\demo\\esms-8.0\\modules\\Esms.Scm\\Esms.Scm.Domain\\Esms.Scm.Domain.csproj",
+        "projectName": "Esms.Scm.Domain",
+        "projectPath": "C:\\Work\\demo\\esms-8.0\\modules\\Esms.Scm\\Esms.Scm.Domain\\Esms.Scm.Domain.csproj",
+        "packagesPath": "C:\\Users\\Qjc\\.nuget\\packages\\",
+        "outputPath": "C:\\Work\\demo\\esms-8.0\\modules\\Esms.Scm\\Esms.Scm.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Qjc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Work\\demo\\esms-8.0\\framework\\Esms.Ddd.Domain\\Esms.Ddd.Domain.csproj": {
+                "projectPath": "C:\\Work\\demo\\esms-8.0\\framework\\Esms.Ddd.Domain\\Esms.Ddd.Domain.csproj"
+              },
+              "C:\\Work\\demo\\esms-8.0\\modules\\Esms.Scm\\Esms.Scm.Domain.Shared\\Esms.Scm.Domain.Shared.csproj": {
+                "projectPath": "C:\\Work\\demo\\esms-8.0\\modules\\Esms.Scm\\Esms.Scm.Domain.Shared\\Esms.Scm.Domain.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Work\\demo\\esms-8.0\\modules\\Esms.Scm\\Esms.Scm.WebApi\\Esms.Scm.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Work\\demo\\esms-8.0\\modules\\Esms.Scm\\Esms.Scm.WebApi\\Esms.Scm.WebApi.csproj",
+        "projectName": "Esms.Scm.WebApi",
+        "projectPath": "C:\\Work\\demo\\esms-8.0\\modules\\Esms.Scm\\Esms.Scm.WebApi\\Esms.Scm.WebApi.csproj",
+        "packagesPath": "C:\\Users\\Qjc\\.nuget\\packages\\",
+        "outputPath": "C:\\Work\\demo\\esms-8.0\\modules\\Esms.Scm\\Esms.Scm.WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Qjc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Work\\demo\\esms-8.0\\framework\\Esms.Ddd.WebApi\\Esms.Ddd.WebApi.csproj": {
+                "projectPath": "C:\\Work\\demo\\esms-8.0\\framework\\Esms.Ddd.WebApi\\Esms.Ddd.WebApi.csproj"
+              },
+              "C:\\Work\\demo\\esms-8.0\\modules\\Esms.Scm\\Esms.Scm.Application\\Esms.Scm.Application.csproj": {
+                "projectPath": "C:\\Work\\demo\\esms-8.0\\modules\\Esms.Scm\\Esms.Scm.Application\\Esms.Scm.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Work\\demo\\esms-8.0\\templates\\Esms.Platform\\Esms.Platform.Application.Contracts\\Esms.Platform.Application.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -1100,6 +1468,9 @@
               },
               "C:\\Work\\demo\\esms-8.0\\modules\\Esms.Account\\Esms.Account.WebApi\\Esms.Account.WebApi.csproj": {
                 "projectPath": "C:\\Work\\demo\\esms-8.0\\modules\\Esms.Account\\Esms.Account.WebApi\\Esms.Account.WebApi.csproj"
+              },
+              "C:\\Work\\demo\\esms-8.0\\modules\\Esms.Scm\\Esms.Scm.WebApi\\Esms.Scm.WebApi.csproj": {
+                "projectPath": "C:\\Work\\demo\\esms-8.0\\modules\\Esms.Scm\\Esms.Scm.WebApi\\Esms.Scm.WebApi.csproj"
               },
               "C:\\Work\\demo\\esms-8.0\\templates\\Esms.Platform\\Esms.Platform.Application\\Esms.Platform.Application.csproj": {
                 "projectPath": "C:\\Work\\demo\\esms-8.0\\templates\\Esms.Platform\\Esms.Platform.Application\\Esms.Platform.Application.csproj"

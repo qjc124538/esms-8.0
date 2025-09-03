@@ -4088,6 +4088,79 @@
         "runtime": {
           "bin/placeholder/Esms.Platform.Domain.Shared.dll": {}
         }
+      },
+      "Esms.Scm.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Esms.Ddd.Application": "1.0.0",
+          "Esms.Scm.Application.Contracts": "1.0.0",
+          "Esms.Scm.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Esms.Scm.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Esms.Scm.Application.dll": {}
+        }
+      },
+      "Esms.Scm.Application.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Esms.Ddd.Application.Contracts": "1.0.0",
+          "Esms.Scm.Domain.Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Esms.Scm.Application.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Esms.Scm.Application.Contracts.dll": {}
+        }
+      },
+      "Esms.Scm.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Esms.Ddd.Domain": "1.0.0",
+          "Esms.Scm.Domain.Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Esms.Scm.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Esms.Scm.Domain.dll": {}
+        }
+      },
+      "Esms.Scm.Domain.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Esms.Ddd.Domain.Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Esms.Scm.Domain.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Esms.Scm.Domain.Shared.dll": {}
+        }
+      },
+      "Esms.Scm.WebApi/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Esms.Ddd.WebApi": "1.0.0",
+          "Esms.Scm.Application": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Esms.Scm.WebApi.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Esms.Scm.WebApi.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -10542,13 +10615,39 @@
       "type": "project",
       "path": "../Esms.Platform.Domain.Shared/Esms.Platform.Domain.Shared.csproj",
       "msbuildProject": "../Esms.Platform.Domain.Shared/Esms.Platform.Domain.Shared.csproj"
+    },
+    "Esms.Scm.Application/1.0.0": {
+      "type": "project",
+      "path": "../../../modules/Esms.Scm/Esms.Scm.Application/Esms.Scm.Application.csproj",
+      "msbuildProject": "../../../modules/Esms.Scm/Esms.Scm.Application/Esms.Scm.Application.csproj"
+    },
+    "Esms.Scm.Application.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../../../modules/Esms.Scm/Esms.Scm.Application.Contracts/Esms.Scm.Application.Contracts.csproj",
+      "msbuildProject": "../../../modules/Esms.Scm/Esms.Scm.Application.Contracts/Esms.Scm.Application.Contracts.csproj"
+    },
+    "Esms.Scm.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../../modules/Esms.Scm/Esms.Scm.Domain/Esms.Scm.Domain.csproj",
+      "msbuildProject": "../../../modules/Esms.Scm/Esms.Scm.Domain/Esms.Scm.Domain.csproj"
+    },
+    "Esms.Scm.Domain.Shared/1.0.0": {
+      "type": "project",
+      "path": "../../../modules/Esms.Scm/Esms.Scm.Domain.Shared/Esms.Scm.Domain.Shared.csproj",
+      "msbuildProject": "../../../modules/Esms.Scm/Esms.Scm.Domain.Shared/Esms.Scm.Domain.Shared.csproj"
+    },
+    "Esms.Scm.WebApi/1.0.0": {
+      "type": "project",
+      "path": "../../../modules/Esms.Scm/Esms.Scm.WebApi/Esms.Scm.WebApi.csproj",
+      "msbuildProject": "../../../modules/Esms.Scm/Esms.Scm.WebApi/Esms.Scm.WebApi.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Esms.Account.WebApi >= 1.0.0",
       "Esms.Ddd.WebApi >= 1.0.0",
-      "Esms.Platform.Application >= 1.0.0"
+      "Esms.Platform.Application >= 1.0.0",
+      "Esms.Scm.WebApi >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -10589,6 +10688,9 @@
             },
             "C:\\Work\\demo\\esms-8.0\\modules\\Esms.Account\\Esms.Account.WebApi\\Esms.Account.WebApi.csproj": {
               "projectPath": "C:\\Work\\demo\\esms-8.0\\modules\\Esms.Account\\Esms.Account.WebApi\\Esms.Account.WebApi.csproj"
+            },
+            "C:\\Work\\demo\\esms-8.0\\modules\\Esms.Scm\\Esms.Scm.WebApi\\Esms.Scm.WebApi.csproj": {
+              "projectPath": "C:\\Work\\demo\\esms-8.0\\modules\\Esms.Scm\\Esms.Scm.WebApi\\Esms.Scm.WebApi.csproj"
             },
             "C:\\Work\\demo\\esms-8.0\\templates\\Esms.Platform\\Esms.Platform.Application\\Esms.Platform.Application.csproj": {
               "projectPath": "C:\\Work\\demo\\esms-8.0\\templates\\Esms.Platform\\Esms.Platform.Application\\Esms.Platform.Application.csproj"

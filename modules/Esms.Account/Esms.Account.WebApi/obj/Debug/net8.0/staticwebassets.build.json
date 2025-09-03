@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0gZQs9ZTrG6DmyKuUtkHUoo/q++Q1cJl3xnX8LXjbsw=",
+  "Hash": "CXjUg938+yikw7HXOT4Y0UvZHPgpsfwyrX0hh/RPlnQ=",
   "Source": "Esms.Account.WebApi",
   "BasePath": "_content/Esms.Account.WebApi",
   "Mode": "Default",
@@ -11,11 +11,11 @@
       "Version": 2,
       "Source": "Esms.Ddd.WebApi",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
-      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "AdditionalPublishProperties": "",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;Configuration;Platform;TargetFramework",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
-      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+      "AdditionalBuildProperties": "",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;Configuration;Platform;TargetFramework"
     }
   ],
   "DiscoveryPatterns": [],

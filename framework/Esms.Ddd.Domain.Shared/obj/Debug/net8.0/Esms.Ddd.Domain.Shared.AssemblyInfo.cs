@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Esms.Ddd.Domain.Shared")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c9e8341b4e114e6dbed330915d48c81efe63d690")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9a25277dc36cb31b957e306402363e5b482677c7")]
 [assembly: System.Reflection.AssemblyProductAttribute("Esms.Ddd.Domain.Shared")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Esms.Ddd.Domain.Shared")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
